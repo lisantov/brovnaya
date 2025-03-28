@@ -7,7 +7,7 @@ let ArrowRight = document.querySelector('.header__right-arrow');
 
 for(let i = 0; i < 5; i++) {
     HeaderSliderCovers[i] = document.querySelectorAll('.cover__slider-image')[i];
-    HeaderSliderCovers[i].style.backgroundImage = 'url(../images/sliders/studio/' + (i + 1) + '.png)';
+    HeaderSliderCovers[i].style.backgroundImage = 'url(./images/sliders/studio/' + (i + 1) + '.png)';
 }
 
 HeaderSliderCovers[0].style.opacity = 1;

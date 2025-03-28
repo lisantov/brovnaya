@@ -6,7 +6,7 @@ const CourseSlide = Course.querySelector('.course__slider-slide');
 let CurrentSlide = 0;
 
 for(let i = 0; i < 4; i++) {
-    CourseSlides.push(`/images/sliders/course/${i + 1}.png`);
+    CourseSlides.push(`./images/sliders/course/${i + 1}.png`);
 }
 
 LeftArrow.addEventListener('click', () =>{

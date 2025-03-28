@@ -6,7 +6,7 @@ class Slider1 {
         let index = 0;
         this.Images.forEach(element => {
             index++;
-            element.style.backgroundImage = 'url(../images/sliders/products/1/' + index + '.png)'
+            element.style.backgroundImage = 'url(./images/sliders/products/1/' + index + '.png)'
         });
         this.Images[0].style.opacity = 1;
     }
@@ -56,7 +56,7 @@ class Slider2 {
         let index = 0;
         this.Images.forEach(element => {
             index++;
-            element.style.backgroundImage = 'url(../images/sliders/products/2/' + index + '.png)'
+            element.style.backgroundImage = 'url(./images/sliders/products/2/' + index + '.png)'
         });
         this.Images[0].style.opacity = 1;
     }
@@ -106,7 +106,7 @@ class Slider3 {
         let index = 0;
         this.Images.forEach(element => {
             index++;
-            element.style.backgroundImage = 'url(../images/sliders/products/3/' + index + '.png)'
+            element.style.backgroundImage = 'url(./images/sliders/products/3/' + index + '.png)'
         });
         this.Images[0].style.opacity = 1;
     }
