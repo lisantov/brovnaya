@@ -12,13 +12,13 @@ class Slider1 {
     }
 
     ImageForward() {
-        if (this.CurrentPosition < 2) {
+        if (this.CurrentPosition < 4) {
             this.CurrentPosition++;
             if (this.CurrentPosition > 0) {
                 LeftArrow1.style.opacity = 1;
                 LeftArrow1.classList.add('arrow');
             }
-            if (this.CurrentPosition == 2) {
+            if (this.CurrentPosition == 4) {
                 RightArrow1.style.opacity = 0;
                 RightArrow1.classList.remove('arrow');
             }
@@ -32,7 +32,7 @@ class Slider1 {
     ImageDownward() {
         if (this.CurrentPosition > 0) {
             this.CurrentPosition--;
-            if (this.CurrentPosition < 3) {
+            if (this.CurrentPosition < 5) {
                 RightArrow1.style.opacity = 1;
                 RightArrow1.classList.add('arrow');
             }
@@ -62,13 +62,13 @@ class Slider2 {
     }
 
     ImageForward() {
-        if (this.CurrentPosition < 2) {
+        if (this.CurrentPosition < 3) {
             this.CurrentPosition++;
             if (this.CurrentPosition > 0) {
                 LeftArrow2.style.opacity = 1;
                 LeftArrow2.classList.add('arrow');
             }
-            if (this.CurrentPosition == 2) {
+            if (this.CurrentPosition == 3) {
                 RightArrow2.style.opacity = 0;
                 RightArrow2.classList.remove('arrow');
             }
@@ -82,7 +82,7 @@ class Slider2 {
     ImageDownward() {
         if (this.CurrentPosition > 0) {
             this.CurrentPosition--;
-            if (this.CurrentPosition < 3) {
+            if (this.CurrentPosition < 4) {
                 RightArrow2.style.opacity = 1;
                 RightArrow2.classList.add('arrow');
             }
