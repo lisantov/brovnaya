@@ -112,7 +112,7 @@ class Slider3 {
     }
 
     ImageForward() {
-        if (this.CurrentPosition < 2) {
+        if (this.CurrentPosition < 1) {
             this.CurrentPosition++;
             if (this.CurrentPosition > 0) {
                 LeftArrow3.style.opacity = 1;
@@ -132,7 +132,7 @@ class Slider3 {
     ImageDownward() {
         if (this.CurrentPosition > 0) {
             this.CurrentPosition--;
-            if (this.CurrentPosition < 3) {
+            if (this.CurrentPosition < 2) {
                 RightArrow3.style.opacity = 1;
                 RightArrow3.classList.add('arrow');
             }
