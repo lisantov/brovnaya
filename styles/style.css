@@ -657,6 +657,14 @@ footer img {
         width: 100% !important;
         height: 100% !important;
     }
+
+    .footer h3 {
+        font-size: 32px;
+    }
+
+    .footer img {
+        width: 200px;
+    }
 }
 
 @media (max-width: 650px) {
@@ -753,5 +761,26 @@ footer img {
         flex-direction: column;
         margin-top: 10px;
         gap: 10px;
+    }
+
+    .interior__slider-image {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 400px) {
+    .description {
+        padding: 0 15px;
+    }
+
+    .description.product {
+        padding: 0;
+    }
+
+    
+
+    .footer img {
+        width: 150px;
     }
 }
